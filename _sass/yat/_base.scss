@@ -290,6 +290,14 @@ table {
 }
 
 /**
+ * Vertically in top 1/3
+ */
+@mixin vertical-top-third($position) {
+  position: $position;
+  transform: translateY(30%);
+}
+
+/**
  * Horizontal center
  */
 @mixin horizontal-center($position) {
