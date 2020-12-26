@@ -576,11 +576,12 @@ html {
   }
 
   .page-banner-inner {
-    @include vertical-center(relative);
+    @include vertical-top-third(relative);
 
     color: $banner-text-color;
     padding: 10px 5px;
     text-shadow: 1px 1px 2px #33333355;
+    text-align: center;
 
     & > *:first-child {
       margin: 0;
