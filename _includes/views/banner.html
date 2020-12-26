@@ -43,8 +43,13 @@
               {{ heading | default: page.title | escape }}
             </h1>
             <h2 class="page-banner-subheading">
+<<<<<<< HEAD
                 {{ subheading | default: page.subtitle | escape }}<br />
                 <i class="fas fa-map-marker-alt"></i>&nbsp;{{ location | default: page.location | escape }}
+=======
+              {{ subheading | default: page.subtitle | escape }}
+              <i class="fas fa-map-marker-alt">\n</i>{{ location | default: page.location | escape }}
+>>>>>>> 03e689a587da5584abe93f1d03dca4a32f7667cc
             </h2>
           </div>
 
