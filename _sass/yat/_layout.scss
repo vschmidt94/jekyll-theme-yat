@@ -214,7 +214,7 @@ html {
  */
 %post-header {
   .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit / 2;
   }
 
   .post-title {
@@ -244,7 +244,7 @@ html {
   @extend %flex-1; /* <-- Keep footer on the bottom */
   -ms-flex: none; /* <-- Fix IE footer issue */
   padding: $spacing-unit * 2 0;
-  padding-top: 72px;
+  padding-top: 20px;
 }
 
 .page-heading {
@@ -374,7 +374,7 @@ html {
   @extend %post-header;
 
   .post-header {
-    margin: 50px auto 60px;
+    margin: 50px auto 20px;
     padding: 0 0 20px;
     border-bottom: 1px solid #ebebeb;
 
